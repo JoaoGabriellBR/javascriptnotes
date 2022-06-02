@@ -30,7 +30,7 @@ function EditScreen() {
 
 
     const addNote = (data) => {
-        axios.put(`http://localhost:8080/edit/${id}`, data)
+        axios.put(`https://apijavascriptnotes.herokuapp.com/edit/${id}`, data)
             .then(() => {
                 console.log("A nota foi atualizada com sucesso")
                 navigate("/notes")

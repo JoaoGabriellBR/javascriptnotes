@@ -13,7 +13,7 @@ function NotesScreen() {
     const [notes, setNotes] = useState([]);
 
     useEffect(() => {
-        axios.get('http://localhost:8080/find')
+        axios.get('https://apijavascriptnotes.herokuapp.com/find')
             .then((res) => {
                 setNotes(res.data)
                 console.log("Conexão com a API foi bem sucedida")
@@ -25,7 +25,7 @@ function NotesScreen() {
 
 
     const excluirNota = (id) => {
-        axios.delete(`http://localhost:8080/delete/${id}`)
+        axios.delete(`https://apijavascriptnotes.herokuapp.com/delete/${id}`)
             .then(() => {
                 console.log("Nota excluida com sucesso")
             })

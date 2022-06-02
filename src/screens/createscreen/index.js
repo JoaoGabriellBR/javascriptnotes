@@ -28,7 +28,7 @@ function CreateScreen() {
     })
 
     const addNote = (data) => {
-        axios.post("http://localhost:8080/create", data)
+        axios.post("https://apijavascriptnotes.herokuapp.com/create", data)
             .then(() => {
                 console.log("A nota foi criada com sucesso")
                 navigate("/notes")

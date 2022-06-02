@@ -13,7 +13,7 @@ function VerMaisScreen() {
     const [notes, setNotes] = useState([]);
 
     useEffect(() => {
-        axios.get(`http://localhost:8080/find/${id}`)
+        axios.get(`https://apijavascriptnotes.herokuapp.com/find/${id}`)
             .then((res) => {
                 setNotes(res.data)
                 console.log("Conexão com a API foi bem sucedida")
