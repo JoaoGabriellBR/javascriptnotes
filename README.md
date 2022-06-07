@@ -1,7 +1,7 @@
 
 
 <div align="center">
-    <img src="https://user-images.githubusercontent.com/88870257/172070068-6c6207f5-d89d-4a2b-a52c-516160ef3111.png">
+    <img src="https://user-images.githubusercontent.com/88870257/172275407-4f9d8563-88dc-4276-a61a-852eff345b8b.png">
     <p>Planeje suas atividades ✔</p>
 </div>
 
