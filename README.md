@@ -8,6 +8,8 @@
 ## Sobre o Projeto
 
 **Javascript Notes** se trata de uma aplicação full stack voltada para a criação de notas. 
+
+https://sitejavascriptnotes.netlify.app/
 <br> <br> <br>
 
 ![layout web](https://user-images.githubusercontent.com/88870257/172070066-4f2ca038-b421-48c4-8676-45722c5cdbac.png)
